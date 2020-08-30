@@ -1,0 +1,160 @@
+:root {
+  --green: #a2ca28;
+  --red: #fd634e;
+}
+.container {
+	max-width: 1180px;
+	margin: auto;
+}
+header {
+	height: 100vh;
+	background: url('img/headerbg.jpg') center/cover no-repeat;
+	color: #fff;
+	text-align: center;
+}
+header a {
+	font: .85em Arial;
+	color: #fff;
+	text-transform: uppercase;
+}
+header img { padding: 20px 0; }
+header div { margin: 200px 0 0 0; }
+h1, h2, h5, h6 {
+	font-family: Arial;
+	text-transform: uppercase;
+}
+h1 { font-size: 2em; padding: 10px 0;}
+h2 { font-size: 1.7em; color: var(--green); margin: 15px 0; }
+h3 { font: 1.5em Arial; padding: 15px 0; }
+h5 { font-size: .9em; color: var(--red); }
+h6 { font-size: .95em; }
+h1 span { color: var(--green); }
+h6 span { color: var(--red); }
+
+main {overflow: auto;}
+#green { background: var(--green); }
+#service { color:#fff; padding: 110px 0 80px 0; }
+#service article { padding: 20px; }
+#service a { color:#fff; margin: 30px 0; }
+a { display: block; }
+p { font: .9em/2 Arial; }
+.icon { width: 50px; height: 50px; 
+	background-image: url(img/icons.png); }
+#chemodan { background-position: 0 0; }
+#chasi { background-position: -50px 0; }
+#oblako { background-position: -100px 0; }
+#mesaj { background-position: -150px 0; }
+#red { background: var(--red); }
+
+.twhite { color: #fff;}
+.tgreen { color: var(--green); }
+.tred { color: var(--red); }
+.tgray { color: #656e74; }
+.bwhite { background: #fff; }
+.bgreen { background: var(--green); }
+.col-1, .col-2 { width: 100%; }
+.right { float: right; }
+.left { float: left; }
+.middle { margin: auto; }
+.center { text-align: center; }
+.text { padding: 55px 40px; min-height: 40vh;}
+.uline { text-decoration: underline; }
+.image {
+	height: 40vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.pinktext { color: var(--red); padding: 12px 0 0 0; }
+.tagtext { padding: 20px 0; }
+.pinktext span { color: #fff; }
+.drop { background-position: -50px -50px; }
+.pinkdrop { background-position: 0 -50px; }
+.tag { background-position: -100px -50px; }
+.man { background-position: -150px -50px;  }
+.barry { background-position: 0 -100px;  }
+.avocado { background-position: -50px -100px; }
+
+#fitnessImg { background-image: url('img/fitness.jpg'); padding: 17vh 20px 28vh 20px; }
+#yourbodyImg { background-image: url('img/yourbody.jpg');  padding: 17vh 20px 28vh 20px;}
+#lifestyleImg { background-image: url('img/lifestyle.jpg'); }
+#summerImg { background-image: url('img/summer.jpg'); padding: 5vh 5vh 0 8vh; }
+#grapeImg { background-image: url('img/grape.jpg'); }
+#avocadoImg { background-image: url('img/avocado.jpg'); }
+#zakat { background: url('img/sunset.jpg') top/cover no-repeat; 
+	height: 40vh;
+	padding: 20px;
+}
+#zakat h1 { text-transform: none; }
+#black { 
+	background: #0d1119; 
+	overflow: auto; 
+	color: #8297a7;
+	padding: 20px;
+}
+#black p { padding: 10px 0 20px 0; }
+#black h5 { color: #fff; }
+.foot3 a { margin: 15px 7px 15px 0; }
+.fab { border-radius: 50%; color: #fff; }
+.elips { padding: 15px 17px; }
+.round { padding: 15px; }
+.fa-facebook-f { background-color: #2e3092; }
+.fa-twitter { background-color: #00adef; }
+.fa-youtube { background-color: #ed3123; }
+.fa-linkedin-in { background-color: #16198f; }
+input {
+    padding: 20px;
+    border: none;
+	border-radius: 3px;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+button {
+    font-weight: bold;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    background: #a1c927;
+}
+button:hover { cursor: pointer; }
+
+
+@media only screen and (min-width: 768px) {
+	header { position: relative; }
+	header img,	header nav,	header div { position: absolute; }
+	header img { top: 40px; left: 50px;	}
+	header nav { top: 60px; right: 10px; }
+	header div { left: 115px; bottom: 145px; }
+	header li { display: inline-block; margin: 0 25px;}
+	h1 { font-size: 2.5em; }
+	h2 { font-size: 2.2em; }
+	h6 { text-align: right; padding: 0 20px 0 0; }
+	#service article { width: 25%; float: left; }
+	.row { overflow: auto; }
+	.col-1 { width: 34%; }
+	.col-2 { width: 66%; }
+	.august { float: left; }
+	#fitnessImg { padding: 33vh 2vh 2vh 0; }
+	#yourbodyImg { padding: 33vh 0 0 4vh; }
+	#zakat { height: 70vh; }
+	#zakat h1 { padding: 240px 0 20px 0; }
+	#zakat p { width: 41%; margin: auto;}
+	#black { padding: 70px 0 450px 0; }
+	.foot1 { width: 32%; margin: 0 60px 0 0; }
+	.foot2 { width: 40%; margin: 0 45px 0 0; }
+	input { width: 200px; }
+	button { width: 180px; }
+	#emeil { width: 340px; margin: 0 5px; }
+}
+
+
+
+
+
+
+
+
+
+
+
